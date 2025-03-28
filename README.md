@@ -26,7 +26,7 @@ Cryptox (CTX) is a cryptocurrency based on the ERC20 standard. The maximum circu
 5. Compile the code by pressing CTRL + S if you are on Windows, or COMMAND + S if you are on Mac OS
 6. If you find no errors, go to the "Deploy and Execute Transactions" tab and select your "Environment" and "Account." Finally, enter the "Name" and "Symbol" of your cryptocurrency. Once done, click "Deploy" to deploy the cryptocurrency to the blockchain.
 
-## Technical details 💻
+## Code details 💻
 
 *  modifier permission() - This modifier is used to ensure that only the owner of the contract performs the transaction.
 *  modifier maximumsupply() - This modifier is used to ensure that the fixed maximum amount of tokens in circulation is not exceeded.
