@@ -28,5 +28,9 @@ Cryptox (CTX) is a cryptocurrency based on the ERC20 standard. The maximum circu
 
 *  modifier permission() - This modifier is used to ensure that only the owner of the contract performs the transaction.
 *  modifier maximumsupply() - This modifier is used to ensure that the fixed maximum amount of tokens in circulation is not exceeded.
-*  
+*  function mint() - This function is only accessible to the contract owner and is responsible for minting new tokens to any address.
+*  function burn() - This function is only accessible to the owner of the contract and is responsible for burning tokens from any address.
+*  function multitransfer() - This function is accessible by anyone and is responsible for transferring the same amount of tokens to 3 different addresses.
+*  function pausetransactions() - This feature is only accessible by the contract owner and is responsible for pausing minting, burning and multitransfers in case of emergency.
+*  function unpausetransactions() - This feature is only accessible by the contract owner and is responsible for resuming minting, burning and multitransfers when the problems have been solved or the emergency has ended.
 
