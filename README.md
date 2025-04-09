@@ -36,3 +36,6 @@ Cryptox (CTX) is a cryptocurrency based on the ERC20 standard. The maximum circu
 *  function pausetransactions() - This feature is only accessible by the contract owner and is responsible for pausing minting, burning and multitransfers in case of emergency.
 *  function unpausetransactions() - This feature is only accessible by the contract owner and is responsible for resuming minting, burning and multitransfers when the problems have been solved or the emergency has ended.
 
+
+
+CODE IS LAW!
